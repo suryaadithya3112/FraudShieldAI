@@ -1,0 +1,11 @@
+Prompt Strategy Summary
+
+FraudShield AI is built using a carefully structured prompt-driven strategy to ensure realistic, ethical, and reliable cybersecurity analysis. Instead of relying on a single instruction or generic AI response, the system uses layered prompts that separate risk detection, explanation, and user guidance into clearly defined stages.
+
+The prompt design prioritizes accuracy over exaggeration. Each prompt explicitly restricts unsafe behavior such as OTP verification, SMS reading, call blocking, or access to personal and banking data. This ensures that all AI outputs remain advisory-only, privacy-first, and legally compliant.
+
+For scam detection, prompts are structured to combine threat-intelligence signals (such as URL and file reputation) with behavioral and contextual analysis, including scam language patterns, urgency tactics, suspicious domains, and social-engineering indicators. This prevents false “safe” results, especially for new or emerging scams that are not yet flagged in public databases.
+
+The AI assistant prompts are designed to be assistive rather than authoritative. The AI never overrides the security engine’s verdict and never asks for sensitive information. Instead, it focuses on explaining why something is risky and what safe action the user should take next.
+
+Overall, the prompt strategy ensures that FraudShield AI delivers clear, explainable, and trustworthy cybersecurity guidance, making the platform suitable for real-world use, academic evaluation, and further extension.
