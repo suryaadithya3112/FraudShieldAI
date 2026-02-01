@@ -1,0 +1,20 @@
+AI Tools Used
+
+Large Language Model (LLM)
+Used to power the FraudShield AI Assistant, which explains scam risks, OTP safety, phishing behavior, and recommended actions in simple, non-technical language. The AI is strictly assistive and advisory-only.
+
+Prompt-Based AI Reasoning Engine
+Carefully designed prompts guide the AI to follow privacy rules, avoid sensitive data requests, and provide explainable cybersecurity guidance rather than automated decisions.
+
+Rule-Based Intelligence Engine
+Combines AI explanations with deterministic rules for OTP scams, SMS fraud patterns, phishing indicators, and social-engineering detection to reduce false positives.
+
+Threat Intelligence APIs (AI-assisted interpretation)
+Public threat-intelligence sources (such as VirusTotal-style analysis) are interpreted and summarized using AI to make results understandable for end users.
+
+Heuristic & Behavioral Analysis Logic
+AI-supported logic identifies scam behaviors such as urgency tactics, impersonation language, suspicious domains, and malware-like permissions.
+
+Design Principle
+
+AI in FraudShield AI is used for explanation, awareness, and guidance, not for accessing personal data or making irreversible security decisions.
