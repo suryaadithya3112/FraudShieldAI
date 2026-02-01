@@ -1,0 +1,68 @@
+FraudShield AI – Tech Stack
+🔹 Frontend
+
+HTML5 – Semantic and accessible structure
+
+CSS3 / Modern CSS – Responsive layout, glassmorphism, dark & light themes
+
+JavaScript (ES6+) – Client-side logic, API communication
+
+Responsive Design – Mobile-first, 2026 modern UI/UX standards
+
+🔹 Backend
+
+Python – Core backend programming language
+
+FastAPI – High-performance API framework
+
+Uvicorn – ASGI server for running FastAPI
+
+REST APIs – Stateless, JSON-based communication
+
+🔹 Security & Analysis
+
+Multi-layer Risk Engine – Rule-based + heuristic analysis
+
+VirusTotal API – URL and file hash threat intelligence
+
+Domain Intelligence (WHOIS logic) – Domain age & reputation checks
+
+Behavioral Analysis – Scam patterns, phishing indicators, urgency detection
+
+🔹 AI & Automation
+
+AI Safety Assistant (LLM-based logic) – Risk explanation and user guidance
+
+Rule-based Decision Engine – Prevents false positives and false safety
+
+Explainable AI Responses – Human-readable security reasoning
+
+🔹 File & APK Analysis
+
+Hash-based Scanning – No file storage
+
+APK Permission Analysis – SMS, accessibility, overlay risk detection
+
+🔹 Messaging & Bot Integration
+
+Telegram Bot API – Optional bot interface for scanning URLs, SMS, and files
+
+Webhook / Polling Model – Secure message handling
+
+🔹 Privacy & Architecture
+
+No Database – Stateless backend
+
+No Authentication – No login or signup
+
+No Personal Data Storage – Privacy-first design
+
+Advisory-only Security Model – Ethical and legal compliance
+
+🔹 Deployment (Optional / Future)
+
+Docker – Containerized deployment
+
+Render / Railway / Vercel – Cloud hosting options
+
+HTTPS / CORS – Secure frontend-backend communication
