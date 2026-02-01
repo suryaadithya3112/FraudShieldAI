@@ -1,0 +1,99 @@
+FraudShield AI – Setup Instructions
+
+These instructions will help you run FraudShield AI locally for development, testing, and project evaluation.
+
+📌 Prerequisites
+
+Make sure the following are installed on your system:
+
+Python 3.9 or higher
+
+Git (optional, for cloning the repository)
+
+A modern web browser (Chrome / Edge / Firefox)
+
+Internet connection (for threat-intelligence APIs)
+
+📂 Project Structure
+FraudShieldAI/
+├── backend/
+│   ├── main.py
+│   ├── config.py
+│   ├── requirements.txt
+│
+├── frontend/
+│   ├── index.html
+│   ├── styles.css
+│   ├── app.js
+│
+└── README.md
+
+🔧 Backend Setup (FastAPI)
+Step 1: Navigate to Backend Directory
+cd backend
+
+Step 2: Install Dependencies
+pip install -r requirements.txt
+
+Step 3: Configure API Keys
+
+Open config.py and add your VirusTotal API key:
+
+VIRUSTOTAL_API_KEY = "your_api_key_here"
+
+
+The free VirusTotal API tier is sufficient for testing and demos.
+
+Step 4: Start Backend Server
+uvicorn main:app --reload
+
+
+If successful, the server will run at:
+
+http://127.0.0.1:8000
+
+
+API documentation is available at:
+
+http://127.0.0.1:8000/docs
+
+🌐 Frontend Setup
+Step 5: Run Frontend
+
+Open the frontend folder
+
+Double-click index.html
+
+The FraudShield AI web interface will open in your browser
+
+The frontend communicates with the backend using REST APIs.
+
+🤖 Telegram Bot Setup (Optional)
+
+FraudShield AI supports an optional Telegram bot interface.
+
+Create a bot using @BotFather
+
+Copy the bot token
+
+Add the token to backend configuration
+
+Run the bot service script
+
+Supported bot actions:
+
+URL scan
+
+SMS text analysis
+
+File & APK advisory scan
+
+🔐 Privacy & Security Notes
+
+No login or signup required
+
+No OTP, banking, or personal data collected
+
+No permanent file storage
+
+Advisory-only, explainable security analysis
