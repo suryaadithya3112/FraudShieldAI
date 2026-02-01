@@ -1,0 +1,9 @@
+Problem Statement
+
+Digital frauds such as OTP scams, phishing links, fake applications, scam SMS, and social-engineering attacks are increasing rapidly and affecting users across all age groups. Many of these scams are new, fast-evolving, and not immediately flagged by traditional security tools, which often rely only on known threat databases. As a result, users are misled into believing that suspicious links, messages, or apps are safe, leading to financial loss and data compromise.
+
+Additionally, most existing solutions either require access to sensitive personal data or provide complex technical warnings that non-technical users find difficult to understand. This creates a gap between threat detection and user awareness at the moment of decision, which is when protection is most needed.
+
+There is a strong need for a privacy-first, advisory-only digital fraud prevention system that can identify emerging scams, explain risks clearly in simple language, and guide users toward safe actions—without accessing bank systems, reading messages automatically, or collecting personal information.
+
+FraudShield AI addresses this gap by focusing on early warning, explainable risk analysis, and user education, helping users prevent fraud before damage occurs.
