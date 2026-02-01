@@ -2,7 +2,7 @@ FraudShield AI – Setup Instructions
 
 These instructions will help you run FraudShield AI locally for development, testing, and project evaluation.
 
-📌 Prerequisites
+Prerequisites:
 
 Make sure the following are installed on your system:
 
@@ -14,7 +14,7 @@ A modern web browser (Chrome / Edge / Firefox)
 
 Internet connection (for threat-intelligence APIs)
 
-📂 Project Structure
+Project Structure:
 FraudShieldAI/
 ├── backend/
 │   ├── main.py
@@ -27,8 +27,7 @@ FraudShieldAI/
 │   ├── app.js
 │
 └── README.md
-
-🔧 Backend Setup (FastAPI)
+Backend Setup (FastAPI):
 Step 1: Navigate to Backend Directory
 cd backend
 
@@ -57,7 +56,7 @@ API documentation is available at:
 
 http://127.0.0.1:8000/docs
 
-🌐 Frontend Setup
+Frontend Setup:
 Step 5: Run Frontend
 
 Open the frontend folder
@@ -68,7 +67,7 @@ The FraudShield AI web interface will open in your browser
 
 The frontend communicates with the backend using REST APIs.
 
-🤖 Telegram Bot Setup (Optional)
+Telegram Bot Setup (Optional):
 
 FraudShield AI supports an optional Telegram bot interface.
 
@@ -88,12 +87,13 @@ SMS text analysis
 
 File & APK advisory scan
 
-🔐 Privacy & Security Notes
+Privacy & Security Notes
 
 No login or signup required
 
 No OTP, banking, or personal data collected
 
 No permanent file storage
+
 
 Advisory-only, explainable security analysis
