@@ -1,0 +1,212 @@
+Build a complete cybersecurity mobile/web application named “FraudShield AI”.
+
+IMPORTANT:
+This application must be REALISTIC, LEGAL, ETHICAL, and WORKING in the real world.
+It must NOT claim OS-level control such as reading SMS automatically, deleting messages, or blocking calls automatically.
+It must NOT integrate private Truecaller backend APIs.
+All security decisions must be explainable and advisory-only.
+
+========================
+CORE PURPOSE
+========================
+FraudShield AI is a real-world digital fraud prevention and early-warning system designed to protect users from:
+- Scam SMS messages
+- OTP fraud attempts
+- Phishing and scam URLs
+- Malicious files and fake APK apps
+- Scam calls and unknown numbers
+- Social engineering attacks
+
+The platform focuses on PREVENTION, AWARENESS, and SAFE DECISION-MAKING.
+It does NOT access bank systems, phone systems, or private user data.
+
+========================
+ABSOLUTE RULES (NON-NEGOTIABLE)
+========================
+- Do NOT verify OTP numbers
+- Do NOT read SMS automatically
+- Do NOT auto-block calls
+- Do NOT integrate private Truecaller backend
+- Do NOT collect OTPs, passwords, banking data, or personal data
+- No login or signup
+- No database of user data
+- No permanent file storage
+- Privacy-first and advisory-only
+- Do NOT claim 100% detection
+
+========================
+SECURITY ENGINE – MAX LEVEL (CRITICAL)
+========================
+Use a MULTI-LAYER SECURITY ENGINE.
+Never rely on a single API or single signal.
+
+Final risk must be calculated using:
+1. Threat intelligence
+2. Domain and file reputation
+3. Behavioral & contextual analysis
+4. Heuristic risk scoring
+5. Confidence classification
+
+Never mark anything as “Safe” just because one check is clean.
+
+========================
+MAIN FEATURES (ALL MUST WORK)
+========================
+
+1) SMS Scam Analyzer (REALISTIC)
+- User pastes SMS message text manually
+- System analyzes:
+  - Scam keywords (OTP, reward, verify, suspend, urgent)
+  - Fake offers, crypto scams, investment traps
+  - Bank / government impersonation language
+  - Fear, urgency, and pressure tactics
+- Output:
+  - Scam Type (OTP Trap / Fake Offer / Phishing / Social Engineering)
+  - Risk Level: LOW / MEDIUM / HIGH
+  - Confidence Level: Known Safe / Emerging / High Scam Likelihood
+  - Clear explanation and safe actions
+- Mention clearly:
+  “This analysis works similar to scam-detection logic used by caller ID apps, without accessing your messages.”
+
+2) OTP Fraud Risk Protection (RULE-ONLY, NO API)
+- User selects scenario:
+  - Bank OTP
+  - UPI OTP
+  - SIM OTP
+  - Delivery OTP
+- Logic:
+  - Bank / UPI / SIM OTP → ALWAYS HIGH RISK
+  - Delivery OTP → CONDITIONAL
+- Output:
+  - Fraud Risk
+  - Explanation why it is dangerous or conditional
+  - Strong warning: NEVER SHARE OTP
+- No phone number checks, no APIs, no exceptions
+
+3) URL Scam & Phishing Scanner (BUG-FREE, HIGH SECURITY)
+- User pastes a URL
+- Perform FIVE-LAYER analysis:
+
+Layer 1: Threat Intelligence
+- VirusTotal-style vendor detection
+- Known malicious URLs → HIGH RISK
+
+Layer 2: Domain Intelligence
+- Domain age (new domains < 90 days increase risk)
+- Suspicious TLDs (.vip, .xyz, .top, .club, .site)
+
+Layer 3: Behavioral Analysis
+- Invitation / referral links
+- Crypto / reward / giveaway patterns
+- Login, password, or wallet prompts
+- External resource loading
+- Shortened URLs
+
+Layer 4: Heuristic Analysis
+- Brand impersonation
+- URL complexity and randomness
+- Query manipulation patterns
+
+Layer 5: Confidence Classification
+- Known Safe
+- Emerging / Unverified
+- High Scam Likelihood
+
+IMPORTANT:
+If VirusTotal is clean but behavioral risk exists:
+- Do NOT show “Safe”
+- Show YELLOW or ORANGE warning
+- Explain clearly:
+  “This link is not yet flagged by security vendors, but it strongly matches scam behavior.”
+
+4) File & APK Malware Advisory Scan (VirusTotal-Style Model)
+- User uploads APK / PDF / ZIP
+- Hash-based malware analysis (no file storage)
+- Show:
+  - Detection ratio (example: 18 / 70 engines)
+  - Risk Level
+  - Confidence Level
+- APK permission risk scoring:
+  - SMS access
+  - Accessibility services
+  - Overlay permissions
+  - Background installation
+- Explain what the malware could realistically do
+- Clearly show:
+  “Files are not stored. Analysis is advisory-only.”
+
+5) Telegram Bot Integration (VirusTotal_AV_Bot STYLE, LEGAL)
+- Integrate a Telegram bot interface as an OPTIONAL channel
+- Telegram bot can:
+  - Accept files for scan
+  - Accept URLs
+  - Accept pasted SMS text
+- Bot uses the SAME FraudShield AI backend logic
+- The bot sends results back to Telegram
+- The bot does NOT claim ownership of VirusTotal
+- Clearly state:
+  “Scans are powered by public threat intelligence and behavioral analysis.”
+
+6) Emergency Fraud Response Mode (DYNAMIC)
+- Automatically activated when risk is HIGH
+- Display immediately:
+  Emergency Helplines:
+  - India Cybercrime Helpline: 1930
+
+  Official Websites:
+  - https://cybercrime.gov.in
+  - https://www.consumer.ftc.gov/scams
+
+  Emergency Actions:
+  - Freeze bank account immediately
+  - Change UPI PIN and passwords
+  - Report incident
+  - Do NOT share OTP
+  - Do NOT click more links
+
+7) FraudShield AI Bot (ASSISTIVE, TRUST-BASED)
+- Chat-style AI assistant inside the app
+- AI explains:
+  - Why something is risky
+  - How scams work
+  - What to do next
+- AI must:
+  - Never override risk engine
+  - Never ask OTPs or personal data
+  - Speak calmly, clearly, and non-technically
+
+========================
+UI / UX DESIGN (2026 STANDARD – IMPORTANT)
+========================
+- Modern 2026 cybersecurity / fintech design
+- Dark + light mode
+- Glassmorphism + soft gradients
+- Clean typography (large readable fonts)
+- Minimal icons with clear meaning
+- Smooth micro-animations
+- Dashboard-style layout
+- Risk indicators:
+  - Green = Known Safe
+  - Yellow = Emerging / Unverified
+  - Red = High Scam Likelihood
+- “Why flagged?” panel always visible
+- Professional, trustworthy, real-world style (not student/demo)
+
+========================
+DISCLAIMER (MUST SHOW CLEARLY)
+========================
+“This application provides risk-based cybersecurity guidance only.
+It does not read messages, block calls, or verify OTPs.
+No personal or banking data is collected.”
+
+========================
+FUTURE SCOPE (MENTION CLEARLY)
+========================
+- Android SMS spam filtering using OS APIs with permission
+- Call blocking using device accessibility services
+- Deeper community-driven scam reporting
+
+========================
+FINAL GOAL
+========================
+Create a HIGH-SECURITY, REAL-WORLD, TRUSTWORTHY cybersecurity application that protects everyday users by detecting emerging scams, explaining risks clearly, and preventing unsafe decisions before damage occurs.
